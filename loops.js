@@ -1,6 +1,7 @@
 function forLoop(array){
-  for(let i = 1; i < 26; i++){
-    array = array.push("I am ${i} strange loops")
+ array = ["I am 1 strange loop."]
+  for(let i = 2; i < 26; i++){
+    array.push("I am ${i} strange loops.")
   }
   return array
 }
